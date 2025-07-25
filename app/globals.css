@@ -12,3 +12,17 @@
     }
   }
 }
+@layer utilities {
+  .text-custom-blue {
+    color: rgba(27, 45, 107, 1);
+  }
+  .text-custom-blue-gray{
+    color: rgba(71, 103, 136, 1);
+  }
+  .bg-card-bg{
+    background-color: rgba(231, 236, 255, 1);
+  }
+  .border-custom-color {
+    border: 1px solid rgba(27, 27, 27, 0.08);
+  }
+}
