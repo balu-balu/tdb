@@ -1,3 +1,4 @@
+import AboutDirector from '@/component/Home/AboutDirector'
 import Home from '@/component/Home/Home'
 import Marquee from '@/component/Home/Marquee'
 import Services from '@/component/Home/Services'
@@ -7,11 +8,14 @@ const page = () => {
     return (
         <div>
             <Home/>
-            <div className='mt-5'>
+            <div className='my-5'>
                 <Marquee/>
             </div>
-            <div className='mt-10'>
+            <div className='my-5'>
                 <Services/>
+            </div>
+            <div>
+                <AboutDirector/>
             </div>
             
         </div>
