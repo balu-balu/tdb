@@ -1,5 +1,6 @@
 import AboutDirector from '@/component/Home/AboutDirector'
 import Email from '@/component/Home/Email'
+import Footer from '@/component/Home/Footer'
 import Home from '@/component/Home/Home'
 import InstallApp from '@/component/Home/InstallApp'
 import Marquee from '@/component/Home/Marquee'
@@ -30,6 +31,9 @@ const page = () => {
             </div>
             <div>
                 <Email/>
+            </div>
+            <div>
+                <Footer/>
             </div>
             
         </div>

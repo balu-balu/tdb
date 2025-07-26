@@ -12,7 +12,7 @@ const Home = () => {
         />
         <div className="z-10">
             <h1 className="text-3xl md:text-5xl font-bold w-[600px]">
-            Your paartner in Mongolian Capital Market
+            Your partner in Mongolian Capital Market
             </h1>
             <p className="mt-4 text-sm md:text-base">Your Way To Wall Street</p>
             <button className="mt-8 bg-blue-500 px-4 py-2 rounded-4xl text-white text-sm">Find out more</button>
