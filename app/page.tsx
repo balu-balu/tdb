@@ -1,5 +1,6 @@
 import AboutDirector from '@/component/Home/AboutDirector'
 import Home from '@/component/Home/Home'
+import InstallApp from '@/component/Home/InstallApp'
 import Marquee from '@/component/Home/Marquee'
 import FeaturedSection from '@/component/Home/News/FeaturedSection'
 import NewsSection from '@/component/Home/News/NewSection'
@@ -22,6 +23,9 @@ const page = () => {
             <div className='container mx-auto px-4 py-8 bg-[rgba(245,245,247,1)]'>
                 <NewsSection/>
                 <FeaturedSection/>
+            </div>
+            <div>
+                <InstallApp/>
             </div>
             
         </div>
