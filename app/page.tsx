@@ -1,4 +1,5 @@
 import AboutDirector from '@/component/Home/AboutDirector'
+import Email from '@/component/Home/Email'
 import Home from '@/component/Home/Home'
 import InstallApp from '@/component/Home/InstallApp'
 import Marquee from '@/component/Home/Marquee'
@@ -26,6 +27,9 @@ const page = () => {
             </div>
             <div>
                 <InstallApp/>
+            </div>
+            <div>
+                <Email/>
             </div>
             
         </div>
