@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 @theme {
+  --color-gray: rgba(230, 230, 230, 0.7);
   --animate-scroll-right-to-left: scroll-right-to-left 20s linear infinite;
 
   @keyframes scroll-right-to-left {
@@ -24,5 +29,8 @@
   }
   .border-custom-color {
     border: 1px solid rgba(27, 27, 27, 0.08);
+  }
+  .card-border-color{ 
+    border: 1px solid rgba(230, 230, 230, 0.7);
   }
 }

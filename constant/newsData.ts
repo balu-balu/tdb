@@ -1,0 +1,32 @@
+export const newsData = [
+	{
+		id: 1,
+		image: "/images/apple_logo.jpg",
+		title: "Apple Inc Q2 Earnings",
+		description: "On May 2, 2024, Apple Inc (NASDAQ:AAPL) disclosed its financial outlook for the fiscal second quarter...",
+		date: "2024-05-02",
+		category: "Finance",
+		views: 145,
+		size: "large",
+	},
+	{
+		id: 2,
+		image: "/images/NYSE.jpg",
+		title: "New York Stock Exchange",
+		description: "Markets see moderate growth amid Fed updates...",
+		date: "2024-04-30",
+		category: "Market",
+		views: 78,
+		size: "small",
+	},
+	{
+		id: 3,
+		image: "/images/FED.jpg",
+		title: "Fed’s Powell says",
+		description: "Federal Reserve Chair Jerome Powell notes ongoing challenges in inflation control...",
+		date: "2024-05-02",
+		category: "Economy",
+		views: 82,
+		size: "small",
+	},
+];
