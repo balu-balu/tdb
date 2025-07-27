@@ -12,19 +12,24 @@ import React from 'react'
 const page = () => {
     return (
         <div>
+            <div>
             <Home/>
+            </div>
             <div className='my-5'>
                 <Marquee/>
             </div>
             <div className='my-5'>
                 <Services/>
             </div>
-            <div>
+            <div className='container mx-auto '>
                 <AboutDirector/>
             </div>
-            <div className='container mx-auto px-4 py-8 bg-white md:bg-[rgba(245,245,247,1)]'>
+            <div className="bg-white md:bg-[rgba(245,245,247,1)] py-8">
+            {/* Агуулгыг төвлөрүүлэх container */}
+            <div className="container mx-auto px-4">
                 <NewsSection/>
                 <FeaturedSection/>
+            </div>
             </div>
             <div>
                 <InstallApp/>

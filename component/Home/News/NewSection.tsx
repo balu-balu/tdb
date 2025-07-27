@@ -42,12 +42,21 @@ export default function NewsSection() {
     return (
         <section className="mb-12 relative px-4 md:px-16">
             {/* Header */}
-            <div className="flex justify-between items-center mb-4 md:mb-6 border-b -1 pb-2 border-[rgba(0,0,0,0.2)]">
+            <div className="md:hidden flex justify-between items-center mb-4 md:mb-6 border-b -1 pb-2 border-[rgba(0,0,0,0.2)]">
                 <h2 className="text-[20px] md:text-3xl font-medium text-[rgba(27,45,107,1)] ">
                     Шинэ мэдээлэл
                 </h2>
                 <FaAngleRight className='h-6 w-6'/>
             </div>
+            <div className="hidden md:flex  items-center mb-4 md:mb-6 pb-2 border-[rgba(0,0,0,0.2)]">
+				<h2 className="text-[20px] md:text-[42px] font-medium text-[rgba(27,45,107,1)] mr-10 ">
+					Шинэ мэдээлэл
+				</h2>
+				<div className='flex space-x-4 text-[rgba(71,103,136,1)] font-light text-[18px] border-b-1 pl-155'>
+					<div>Latest</div>
+					<div>Most Read</div>
+				</div>
+			</div>
 
             <div className="md:hidden">
                 <Swiper
