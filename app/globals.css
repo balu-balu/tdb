@@ -9,14 +9,14 @@
 
 @theme {
   --color-gray: rgba(230, 230, 230, 0.7);
-  --animate-scroll-right-to-left: scroll-right-to-left 20s linear infinite;
+  --animate-scroll-right-to-left: scroll-right-to-left 10s linear infinite;
 
   @keyframes scroll-right-to-left {
     from {
       transform: translateX(0);
     }
     to {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
     }
   }
 }
