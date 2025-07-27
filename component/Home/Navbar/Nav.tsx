@@ -38,9 +38,7 @@ const Nav = () => {
                 </button>
             </SheetTrigger>
             <SheetContent side="left" className="bg-white pt-10 px-4">
-                <SheetHeader>
-                <SheetTitle>Цэс</SheetTitle>
-                </SheetHeader>
+                <SheetTitle></SheetTitle>
                 <div className="flex flex-col space-y-2 mt-4">
                 {menuData.map((menu) => (
                     <Collapsible key={menu.title}>
