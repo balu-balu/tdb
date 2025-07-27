@@ -37,7 +37,7 @@ const Nav = () => {
                 <HiMenu className="text-white w-6 h-6" />
                 </button>
             </SheetTrigger>
-            <SheetContent side="left" className="bg-white pt-10 px-4">
+            <SheetContent side="left" className="bg-white pt-10 px-4 overflow-y-auto pb-20">
                 <SheetTitle></SheetTitle>
                 <div className="flex flex-col space-y-2 mt-4">
                 {menuData.map((menu) => (
@@ -104,7 +104,7 @@ const Nav = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
             ))}
-             <button className="p-2 text-white rounded-md hover:bg-black/20 focus:outline-none focus:bg-black/20">
+            <button className="p-2 text-white rounded-md hover:bg-black/20 focus:outline-none focus:bg-black/20">
                 <HiSearch className="h-5 w-5" />
             </button>
           </div>
