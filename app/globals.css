@@ -21,6 +21,11 @@
   }
 }
 @layer utilities {
+.swiper-pagination {
+  position: none;
+  margin-top: 1.5rem; /* mt-6 */
+  text-align: center;
+}
   .text-custom-blue {
     color: rgba(27, 45, 107, 1);
   }

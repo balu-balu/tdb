@@ -22,7 +22,7 @@ const page = () => {
             <div>
                 <AboutDirector/>
             </div>
-            <div className='container mx-auto px-4 py-8 bg-[rgba(245,245,247,1)]'>
+            <div className='container mx-auto px-4 py-8 bg-white md:bg-[rgba(245,245,247,1)]'>
                 <NewsSection/>
                 <FeaturedSection/>
             </div>
