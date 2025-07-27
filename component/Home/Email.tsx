@@ -19,7 +19,7 @@ const Email = () => {
                     className='flex-1 px-8 py-1 md:py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200 border border-[rgba(27,27,27,0.08)] shadow-[0px_8px_25px_0px_rgba(13,10,44,0.06)] bg-white placeholder-[rgba(71,103,136,1)] text-[14px] md:text-[16px] sm:text-xl font-normal'
                 />
                 {/* Button maintains its size */}
-                <button className='flex-shrink-0 bg-[rgba(41,134,254,1)] shadow-[0px_3px_12px_0px_rgba(74,58,255,0.18)] rounded-full md:py-3 py-1 px-3 md:px-4 text-[14px] sm:text-lg md:text-[16px] text-white'>
+                <button className='flex-shrink-0 bg-[rgba(41,134,254,1)] shadow-[0px_3px_12px_0px_rgba(74,58,255,0.18)] rounded-full md:py-2 py-1 px-3 md:px-4 text-[14px] sm:text-lg md:text-[16px] text-white'>
                     Sign up
                 </button>
             </div>
