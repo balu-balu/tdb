@@ -1,8 +1,8 @@
-// src/components/NewsSection.tsx
+
 'use client';
 import NewsCard from './NewsCard';
 
-// Define a type for the news data
+
 interface NewsItem {
     id: number;
     title: string;
@@ -38,7 +38,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { FaAngleRight } from 'react-icons/fa';
-export default function NewsSection() {
+export default function NewSection() {
     return (
         <section className="mb-12 relative px-4 md:px-16">
             {/* Header */}
@@ -64,7 +64,6 @@ export default function NewsSection() {
                     pagination={{clickable: true}}
                     spaceBetween={20}
                     slidesPerView={1}
-                    className="swiper-pagination"
                 >
                     {newsData.map((item, index) => (
                         <SwiperSlide key={index}>
