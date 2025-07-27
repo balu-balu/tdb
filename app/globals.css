@@ -21,9 +21,6 @@
   }
 }
 @layer utilities {
-.swiper-pagination {
-  position: none;
-}
   .text-custom-blue {
     color: rgba(27, 45, 107, 1);
   }

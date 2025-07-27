@@ -15,8 +15,8 @@ export default function NewsCard({
     isLarge = false,
 }: NewsCardProps) {
     return (
-        <div className="flex flex-col h-full overflow-hidden bg-none">
-            <div className={`relative w-full ${isLarge ? 'h-48 sm:h-64 md:h-72' : 'h-40 md:h-48'}`}>
+        <div className="flex flex-col h-full overflow-hidden bg-none mb-10">
+            <div className={`relative w-full ${isLarge ? 'h-48 sm:h-64 md:h-72' : 'h-40 md:h-48 '}`}>
                 <Image
                     src={imageUrl}
                     alt={title}
