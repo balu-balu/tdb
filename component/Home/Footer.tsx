@@ -3,8 +3,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 're
 
 const Footer = () => {
 	return (
-		<footer className="bg-[rgba(250,251,255,1)] text-blue-900 py-8 mt-8 border-t border-[rgba(239,240,246,1)]">
-			<div className="container mx-auto px-4 ">
+		<footer className="bg-[rgba(245,245,247,1)] md:bg-[rgba(250,251,255,1)] text-blue-900 py-8 mt-8 border-t border-[rgba(239,240,246,1)]">
+			<div className="container mx-auto px-12 md:px-4 ">
 
 				{/* Top Section: Logo + Short Text */}
 				<div className="hidden w-full md:flex flex-col md:flex-row items-center md:items-start justify-between border-b border-gray-300 pb-16 mt-4 space-y-4 md:space-y-0">
@@ -122,7 +122,7 @@ const Footer = () => {
 						<FaYoutube className="hover:text-red-500 cursor-pointer w-6 h-6" />
 					</div>
 					</div>
-					<p className=" md:hidden text-left text-[14px] mt-3 text-[rgba(71,103,136,1)]">© 2024 TDB Securities SC LLC | All Rights Reserved</p>
+					<p className=" md:hidden text-left text-[10px] mt-3 text-[rgba(71,103,136,1)]">© 2024 TDB Securities SC LLC | All Rights Reserved</p>
 
 			</div>
 		</footer>
