@@ -26,7 +26,7 @@ import { ChevronDown } from 'lucide-react'
 
 const Nav = () => {
   return (
-    <nav className="absolute z-10 w-full px-4 py-4">
+    <nav className="absolute z-30 w-full px-4 py-4">
       <div className="flex items-center justify-between md:justify-center relative">
         
         {/* Mobile Nav */}
